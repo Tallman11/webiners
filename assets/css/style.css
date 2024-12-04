@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    margin: 0 25px;
+}
+
+header {
+    padding: 15px 30px;
+}
+header a{
+    text-decoration-line: none;
+    color: black;
+}
+header {
+    border-bottom: 1px solid #c8c8c8;
+}
+#hero-section {
+    margin-top: 70px;
+    padding: 0 30px;
+}
+
+
+#hero-section div:first-child {
+    width: 706px;
+    margin: auto;
+    text-align: center;
+}
+#webinars {
+    margin: 50px 10px ;
+    font-size: 45px;
+}
+#image-div img {
+    width: 100%;
+}
+
+#image-div {
+    margin-top: 100px;
+}
+#hero-section>div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#date-ticket-div {
+    width: 700px;
+}
+#date-ticket-div p{
+    margin-bottom: 30px;
+}
+#Strengthening-rela {
+    font-size: 48px;
+    width: 350px;
+    
+} 
+#get-ticket {
+    background-color: #1070FF;
+    color: white;
+    padding: 10px 4px 15px 20px;
+    text-decoration: none;
+}
+
+#s-v-a-s-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #BCD7FF;
+    padding-bottom: 10px;
+}
+#speaker-section {
+    padding: 35px 30px;
+}
+#speakers-pictures-div>div:first-child {
+    height: 576px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#speakers-pictures-div>div:nth-child(2) {
+    height: 576px;
+    background-color: #66A3FF;
+    background-image: url(../image/unsplash_xmSWVeGEnJw.png);
+}
+#speakers-pictures-div>div:last-child {
+    height: 576px;
+    background-color: pink;
+}
+#speakers-pictures-div>div:last-child {
+    height: 576px;
+    background-color: pink;
+    background-image: url(../image/unsplash_Zz5LQe-VSMY.png);
+}
+#speakers-pictures-div {
+    display: grid;
+    grid-template-columns: 24% 35% 35%;
+    gap: 3%;
+}
+
+#speakers-pictures-div>div:nth-child(2), 
+#events-pictures-div>div:nth-child(2), 
+#events-pictures-div>div:nth-child(1) {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+#speakers-pictures-div>div:nth-child(2)>div {
+    margin: 20px 15px;
+}
+
+#events-pictures-div>div:nth-child(1)>div, #events-pictures-div>div:nth-child(2)>div {
+    margin: 20px 15px;
+}
+
+#speakers-pictures-div>div:nth-child(3), #events-pictures-div>div:nth-child(3) {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #BCD7FF;
+    background-size: cover;
+    background-image: url(../image/unsplash_Zz5LQe-VSMY\ \(3\).png);
+}
+
+#events-pictures-div>div:nth-child(3) {
+    background-image: url(../image/unsplash_Kb8_42IFMFk\ \(3\).png);
+}
+
+#speakers-pictures-div>div:nth-child(3)>div, #events-pictures-div>div:nth-child(3)>div {
+    margin: 20px 15px;
+}
+
+
+#d-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+#speakers-pictures-div hr, #events-pictures-div hr {
+    margin: 10px 0;
+}
+
+#d-flex-contend-end {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+#news-letter-section {
+    background-color: #E7F0FF;
+    /* background-image: url(../image/Vector.png); */
+    padding-top: 100px;
+}
+
+#news-letter-section h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: sat;
+    
+}
+
+#news-letter-section p {
+    text-align: center;
+    margin: 9px 0;
+    margin: 15px 0 30px;   
+}
+
+#news-letter-section form {
+    /* background-color: aqua; */
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 85px;
+}
+#suscribe-h1 {
+    font-family: 'Satoshi', sans-serif;
+    color: green;}
+    
+#email-input {
+    height: 56px;
+    width: 479px;
+    border: none;
+    padding: 0 13px;
+}
+
+#submit-buttom{
+    height: 56px;
+    width: 155px;
+    border: none;
+    background-color: #1070FF;
+    color: white;
+    font-size: 20px;
+}
+footer {
+    background-color: #1070ff;
+    padding: 50px 70px;
+}
+#footer-list-div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#footer-list-div>ul {
+    list-style-type: none;
+    padding: 0 0;   
+}
+#footer-list-div>ul>li {
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 20px;
+}
+
+@media  screen and (max-width: 992px) {
+    #date-ticket-div{
+        width: 400px;
+    }
+    #speakers-pictures-div>div:first-child,
+    #speakers-pictures-div>div:nth-child(2),
+    #speakers-pictures-div>div:nth-child(3){
+        height: 400px;
+    }
+    
+}
+
+/* dtyling below is for mobile diveic */
+@media screen and (max-width:440px) {
+    #hero-section div:first-child {
+        width: 100%;
+    }
+    #Strengthening-rela{
+        font-size: 25px;
+        width: 500px;
+    
+    }
+    #speakers-pictures-div {
+        grid-template-columns: 100%;
+    }
+    #speakers-pictures-div>div:first-child,
+    #speakers-pictures-div>div:nth-child(2),
+    #speakers-pictures-div>div:nth-child(3){
+        height: 500px;}
+
+    #email-input {
+        width: 250px;
+    }
+    #submit-buttom{
+        width: 135px;
+    }
+
+#input-div{
+    display: flex;
+    background-color: aqua;
+}
+#footer-list-div>ul {
+    margin: 0 25px;
+}
+
+#footer-list-div>ul:nth-child(4), 
+#footer-list-div>ul:last-child {
+    margin-top: 20px;
+}
+
+#footer-list-div {
+    flex-wrap: wrap;
+}
+
+    
+}
